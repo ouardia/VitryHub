@@ -1,0 +1,1431 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='fr' xml:lang='fr' dir='ltr' xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <base href="http://www.ratp.fr/fr/"></base>
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="-1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  
+  
+  
+  
+  
+
+  
+  <link href="css/packedCss_556464708.css" rel="stylesheet"  type="text/css" media="all" />
+  <link href="css/packedCss_287440174.css" rel="stylesheet"  type="text/css" media="print" />
+  <link href="css/packedCss_355299540.css" rel="stylesheet"  type="text/css" media="all" />
+
+  
+  
+  <script src="js/custom_fo_header.js" type="text/JavaScript" language="JavaScript"></script>
+
+
+  
+  
+  <style type="text/css" media="all">
+    <!--  
+	  
+	  .js .wdglang-fr { display: block; }
+    -->
+  </style>
+  <link rel="shortcut icon" href='/favicon.ico' />
+  
+  
+     
+  
+<!-- Feuille spécifique IE pour corriger les bugs d'affichages -->
+<!--[if IE]>
+   <link rel="stylesheet" type="text/css" href="css/ratp/content_ie.css" media="screen" />
+<![endif]-->
+<!-- Feuille spécifique IE6 pour corriger les bugs d'affichages -->
+<!--[if IE 6]>
+   <link rel="stylesheet" type="text/css" href="css/ratp/content_ie6.css" media="screen" />
+<![endif]-->
+<script type="text/javascript">
+  <!--
+  document.write('<link rel="stylesheet" type="text/css" href="css/ratp/js_enable.css" />');
+  -->
+</script>
+  
+  
+  
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="RATP, transports à Paris et en Ile-de-France : bus, métro, tramway, RER" />
+<meta name="keywords" content="transport paris, plan métro et RER, informations trafic, itinéraires Ile de France, carte orange, Bus, métro, RER, Tram, RATP, ticket transports, plans des lignes, horaires, réseaux métro, tourisme France" />
+<meta name="language" content="fr" />
+    
+    <title>RATP, transports à Paris et en Ile-de-France : bus, métro, tramway, RER</title>
+    <link rel="stylesheet" type="text/css" media="print,screen" href="/horaires/css/ratp_main.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/horaires/css/ratp_print.css" />
+    <script type="text/javascript" src="/horaires/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/horaires/js/xiti.js"></script>
+    <!--[if IE]>
+      <link rel="stylesheet" href="/horaires/css/ratp_horaires_ie.css" media="print,screen" type="text/css" title="no title" charset="utf-8">
+    <![endif]-->
+    <!--[if IE 6]>
+      <link rel="stylesheet" href="/horaires/css/ratp_horaires_ie6.css" media="print,screen" type="text/css" title="no title" charset="utf-8">
+    <![endif]-->
+    <!--[if IE 7]>
+      <link rel="stylesheet" href="/horaires/css/ratp_horaires_ie7.css" media="print,screen" type="text/css" title="no title" charset="utf-8">
+    <![endif]-->
+</head>
+
+<body  id="AjaxCtxt-0_0" class=" browser-null"><script language="javascript" type="text/javascript">document.body.className = document.body.className + ' js'</script>
+<a name="top"></a>
+
+<ul class='ctxMenu click' id='ctxLangForm' style='display: none; width: 110px;'><li class='icon'><a lang='fr' xml:lang='fr' href='#' onclick="return JCMS.form.Widget.toggleLangForm('fr',this);"><img class="iso639flag fr-flag" src="s.gif" alt="fr" title="Français" /> Français</a></li><li class='icon'><a lang='en' xml:lang='en' href='#' onclick="return JCMS.form.Widget.toggleLangForm('en',this);"><img class="iso639flag en-flag" src="s.gif" alt="en" title="English" /> English</a></li><li class='icon'><a lang='it' xml:lang='it' href='#' onclick="return JCMS.form.Widget.toggleLangForm('it',this);"><img class="iso639flag it-flag" src="s.gif" alt="it" title="Italiano" /> Italiano</a></li><li class='icon'><a lang='es' xml:lang='es' href='#' onclick="return JCMS.form.Widget.toggleLangForm('es',this);"><img class="iso639flag es-flag" src="s.gif" alt="es" title="Español" /> Español</a></li><li class='icon'><a lang='de' xml:lang='de' href='#' onclick="return JCMS.form.Widget.toggleLangForm('de',this);"><img class="iso639flag de-flag" src="s.gif" alt="de" title="Deutsch" /> Deutsch</a></li><li class='icon'><a lang='ja' xml:lang='ja' href='#' onclick="return JCMS.form.Widget.toggleLangForm('ja',this);"><img class="iso639flag ja-flag" src="s.gif" alt="ja" title="日本語" /> 日本語</a></li><li class='icon'><a lang='nl' xml:lang='nl' href='#' onclick="return JCMS.form.Widget.toggleLangForm('nl',this);"><img class="iso639flag nl-flag" src="s.gif" alt="nl" title="Nederlands" /> Nederlands</a></li></ul>
+<ul class='ctxTooltip cached click idle' id='ctxTooltipMenu' style='display: none;' onclick="return CtxMenuManager.handleTooltip();"><li>&nbsp;</li></ul>
+<div style=" "  class="Outter PortletPortal ID_f_21831 ajax-refresh-div Inner">
+
+
+  <div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;" id='espace_n3' class="Outter PortletColumn ID_f_21830 ajax-refresh-div Portlet PortletCollection Inner screen">
+<div >
+<div class=" col-item" style="text-align: left; vertical-align: top;">
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        
+        
+        
+        <div id="pubBandeau">
+        <div class="imgOuScript">
+            
+            
+                <script type="text/javascript">
+sas_tmstp=Math.round(Math.random()*10000000000);sas_masterflag=1;
+function SmartAdServer(sas_pageid,sas_formatid,sas_target) {
+ if (sas_masterflag==1) {sas_masterflag=0;sas_master='M';} else {sas_master='S';};
+ document.write('<scr'+'ipt src="http://www3.smartadserver.com/call/pubj/' + sas_pageid + '/' + sas_formatid + '/' + sas_master + '/' + sas_tmstp + '/' + escape(sas_target) + '?"></scr'+'ipt>');
+}
+</script>
+
+<script type="text/javascript">
+sas_pageid='22256/(horaires)';
+sas_formatid=5789;
+sas_target='';
+SmartAdServer(sas_pageid,sas_formatid,sas_target);
+</script>
+<noscript>
+<a href="http://www3.smartadserver.com/call/pubjumpi/22256/(horaires)/5789/M/[timestamp]/?">
+<img src="http://www3.smartadserver.com/call/pubi/22256/(horaires)/5789/M/[timestamp]/?" border="0" alt="" /></a>
+</noscript>
+            
+         
+            <!-- Bandeau publicitaire -->
+        </div>
+        <div class="clear"></div>
+        </div>
+        
+        
+        <div class="bottomBorder"></div>
+
+        
+        
+    
+
+
+
+
+  
+  
+
+
+</div><div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletJspCollection ID_c_5150 ajax-refresh-div Portlet PortletCollection Inner">
+<div class="zoneEntete">
+
+<div id="skipLink" class="skip_link">
+  <ul>
+    <li><a href="ratp/c_20542/horaires/#content">Aller au contenu</a></li>
+    <li><a href="ratp/c_20542/horaires/#nav_main">Aller au menu</a></li>
+  </ul>
+</div>
+
+<script type="text/javascript">
+<!--
+	
+	
+	var skipLink = document.getElementById('skipLink');
+	skipLink.className += " accessibilite_off"; 
+//-->
+</script>
+
+
+
+<div class="header">
+	<div class="header_int">
+		<div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletJspCollection ID_c_5151 ajax-refresh-div Portlet PortletCollection Inner">
+
+
+
+
+<div class="logo">
+	<div><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletImage ID_c_5162 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+	<a href='.' ><img src='upload/docs/image/gif/2010-03/logo-ratp.gif' alt="RATP.FR, retour à la page d’accueil" title="RATP.FR, retour à la page d’accueil" style="border:0; text-align:center; vertical-align: middle; " />
+
+	</a>
+
+</div></div>
+</div>
+<div class="baseline">
+	<div><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletImage ID_c_5164 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+	<a href='.' ><img src='upload/docs/image/gif/2010-03/baseline-ratp.gif' alt="RATP.FR, retour à la page d’accueil" title="RATP.FR, retour à la page d’accueil" style="border:0; text-align:center; vertical-align: middle; " />
+
+	</a>
+
+</div></div>
+</div>
+<div class="nav_lang">
+	<div class="label" lang="en">Tourist information</div>
+     <div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletQueryForeach ID_c_5189 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+
+	<ul>
+	
+
+
+	
+	<li><a href="../en/ratp/c_21879/tourists/" target="_self"><img 
+		lang="en"
+		src="upload/docs/image/gif/2010-03/flag_en.gif"
+		title="Heading tourists: Access English version"  
+		alt="Heading tourists: Access English version" 
+		border="0" /></a></li>
+	
+	
+	<li><a href="../de/ratp/c_21879/touristen/" target="_self"><img 
+		lang="de"
+		src="upload/docs/image/gif/2010-03/flag_de.gif"
+		title="Touristentitel : Zur deutschen Version gelangen"  
+		alt="Touristentitel : Zur deutschen Version gelangen" 
+		border="0" /></a></li>
+	
+	
+	<li><a href="../it/ratp/c_21879/turisti/" target="_self"><img 
+		lang="it"
+		src="upload/docs/image/gif/2010-03/flag_it.gif"
+		title="Rubrica turisti : accedere alla versione italiana"  
+		alt="Rubrica turisti : accedere alla versione italiana" 
+		border="0" /></a></li>
+	
+	
+	<li><a href="../es/ratp/c_21879/turistas/" target="_self"><img 
+		lang="es"
+		src="upload/docs/image/gif/2010-03/flag_es.gif"
+		title="Rubrica turistas : acceder a la versión española"  
+		alt="Rubrica turistas : acceder a la versión española" 
+		border="0" /></a></li>
+	
+	
+	<li><a href="../nl/ratp/c_21879/toeristen/" target="_self"><img 
+		lang="nl"
+		src="upload/docs/image/gif/2010-12/flag_nl.gif"
+		title="Rubriek toeristen : toegang tot de Nederlandse versie"  
+		alt="Rubriek toeristen : toegang tot de Nederlandse versie" 
+		border="0" /></a></li>
+	
+	
+	<li><a href="../ja/ratp/c_21879//" target="_self"><img 
+		lang="ja"
+		src="upload/docs/image/gif/2010-03/flag_ja.gif"
+		title="Tourist information"  
+		alt="Tourist information" 
+		border="0" /></a></li>
+	
+	</ul>
+
+
+  
+  
+
+</div>
+</div></div>
+		<div class="clear"></div>
+		<div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletJspCollection ID_n_23645 ajax-refresh-div Portlet PortletCollection Inner">
+
+
+
+
+
+<div id="dropdownMenu">
+
+	<ul class="firstItem">
+		<li lang="fr">
+		
+	    
+	        
+				<img src="images/ratp/menu/flag_fr_selected.gif" width="19" height="16" alt="fr" title="Français" />
+	        
+	        
+	    		
+		<span class="menuPipe">|</span> </li>
+
+		<li class="lastFlag" lang="en">
+		
+	    
+	        
+	        
+	            <a href="../en/ratp/c_20542/horaires/">
+                    <img src="images/ratp/menu/flag_uk.gif" width="15" height="12" alt="en" title="English" />
+                </a>
+	        
+	    		
+		</li>
+	</ul>
+
+	<div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletNavigate ID_c_5156 ajax-refresh-div Portlet PortletSkinable Inner">
+  <div id="menuN1Part1"><ul id="ddm0_root" class="level1">
+<li id="ddm0_0"class="node">
+<a  href="ratp/r_30490/groupe/">Groupe</a>
+<ul id="ddm0_0_root" class="level2">
+<li id="ddm0_0_0"class="leaf">
+<a  href="ratp/c_5002/le-groupe-ratp/">Le Groupe RATP</a>
+</li>
+<li id="ddm0_0_1"class="leaf">
+<a  href="ratp/c_5064/en-france-a-l-international/">En France & à l'international</a>
+</li>
+<li id="ddm0_0_2"class="leaf lastItem">
+<a  href="ratp/c_5079/innovation-developpement-durable/">Innovation & développement durable</a>
+</li>
+</ul>
+</li>
+<li id="ddm0_1"class="node">
+<a  href="ratp/c_5037/reseau-ile-de-france/">Réseau Ile-de-France</a>
+<ul id="ddm0_1_root" class="level2">
+<li id="ddm0_1_0"class="leaf">
+<a  href="ratp/c_5042/le-reseau/">Le réseau</a>
+</li>
+<li id="ddm0_1_1"class="leaf">
+<a  href="ratp/c_5048/au-service-des-voyageurs/">Au service des voyageurs</a>
+</li>
+<li id="ddm0_1_2"class="leaf">
+<a  href="ratp/c_5053/extension-du-reseau/">Extension du réseau</a>
+</li>
+<li id="ddm0_1_3"class="leaf lastItem">
+<a  href="ratp/c_5061/modernisation-et-amenagement/">Modernisation et aménagement</a>
+</li>
+</ul>
+</li>
+<li id="ddm0_2"class="leaf">
+<a  href="ratp/c_5097/actualites/">Actualités</a>
+</li>
+<li id="ddm0_3"class="node">
+<a  href="ratp/c_20740/carrieres/">Carrières</a>
+<ul id="ddm0_3_root" class="level2">
+<li id="ddm0_3_0"class="leaf">
+<a  href="ratp/c_20787/nous-connaitre/">﻿Nous connaître</a>
+</li>
+<li id="ddm0_3_1"class="leaf">
+<a  href="ratp/c_20792/nos-metiers/">Nos métiers</a>
+</li>
+<li id="ddm0_3_2"class="leaf">
+<a  href="ratp/c_20800/nos-carrieres/">Nos carrières</a>
+</li>
+<li id="ddm0_3_3"class="leaf">
+<a  href="ratp/c_20804/campus-jeunes/">Campus Jeunes</a>
+</li>
+<li id="ddm0_3_4"class="leaf lastItem">
+<a  href="ratp/c_20808/nous-rejoindre/">Nous rejoindre</a>
+</li>
+</ul>
+</li>
+<li id="ddm0_4"class="node lastItem">
+<a  href="ratp/c_5100/aimer-la-ville/">Aimer la ville</a>
+<ul id="ddm0_4_root" class="level2">
+<li id="ddm0_4_0"class="leaf">
+<a  href="ratp/c_5102/culture/">Culture</a>
+</li>
+<li id="ddm0_4_1"class="leaf">
+<a  href="ratp/c_5107/sport/">Sport</a>
+</li>
+<li id="ddm0_4_2"class="leaf">
+<a  href="ratp/c_5111/urbanisme-et-architecture/">Urbanisme et Architecture</a>
+</li>
+<li id="ddm0_4_3"class="leaf">
+<a  href="ratp/c_17449/campagnes-de-communication/">Campagnes de communication</a>
+</li>
+<li id="ddm0_4_4"class="leaf">
+<a  href="ratp/r_49543/paris-en-grand/">Paris en + grand</a>
+</li>
+<li id="ddm0_4_5"class="leaf">
+<a  href="ratp/r_50301/j-aime-ma-ligne/">J'aime ma ligne</a>
+</li>
+</ul>
+</li>
+</ul>
+</div><noscript>
+	
+	<style type="text/css">#dropdownMenu ul li ul {position: relative;}</style>
+  </noscript>
+<script type="text/javascript">
+<!--
+	JCMS.plugin.menuUtils.hideSubMenu('ddm0_root');
+//-->
+</script>
+</div>
+
+    <div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletNavigate ID_n_23683 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+
+
+
+<div class="blueMenuSelected">
+
+<ul id="ddm_sd1_root" class="level1">
+<li id="ddm_sd1_0"class="node ieLastItemSelected lastItem ongletSelected">
+<span class="boutonMeDeplacer">Me déplacer</span>
+<ul id="ddm_sd1_0_root" class="level2">
+<li id="ddm_sd1_0_0"class="leaf">
+<a  href="ratp/c_20528/itineraires/">Itinéraires</a>
+</li>
+<li id="ddm_sd1_0_1"class="leaf ongletSelected">
+<a  href="ratp/c_20541/horaires-trafic/">Horaires & trafic</a>
+</li>
+<li id="ddm_sd1_0_2"class="leaf">
+<a  href="ratp/c_20558/plans/">Plans</a>
+</li>
+<li id="ddm_sd1_0_3"class="leaf">
+<a  href="ratp/c_20585/titres-tarifs/">Titres & tarifs</a>
+</li>
+<li id="ddm_sd1_0_4"class="leaf">
+<a  href="ratp/c_20618/accessibilite-des-reseaux/">Accessibilité des réseaux</a>
+</li>
+<li id="ddm_sd1_0_5"class="leaf">
+<a  href="ratp/r_49109/cyclistes-et-pietons/">Cyclistes et piétons</a>
+</li>
+<li id="ddm_sd1_0_6"class="leaf">
+<a  href="ratp/c_20627/mieux-voyager/">Mieux voyager</a>
+</li>
+<li id="ddm_sd1_0_7"class="leaf">
+<a  href="ratp/c_20648/echanger-avec-vous/">Echanger avec vous</a>
+</li>
+<li id="ddm_sd1_0_8"class="leaf">
+<a  href="ratp/c_20655/vos-questions/">Vos questions</a>
+</li>
+<li id="ddm_sd1_0_9"class="leaf">
+<a  href="ratp/c_21879/touristes/">Touristes</a>
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+<noscript>
+    
+    <style type="text/css">#dropdownMenu ul li ul {position: relative;}</style>
+</noscript>
+<script type="text/javascript">
+<!--
+	JCMS.plugin.menuUtils.hideSubMenu('ddm_sd1_root');
+//-->
+</script>
+</div></div>
+	
+	<div id="recherche">
+		<div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletJsp ID_c_5247 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+<form method="get" action="ratp/v_15415/recherche/" onsubmit='valideIndex()' >
+	<input type="text" class="text" name="champ-texte" id="champ-texte" size="50" autocomplete="off" value="Rechercher"/>
+	<input type="hidden" id="index_recherche" name="index_recherche" />
+	<div id="autocompletion" class="autocompletion"></div>
+</form>
+
+</div>
+	</div>
+    
+</div><!-- /menu --></div>
+		<div class="clear"></div>
+	</div><!-- /header_int-->
+</div>
+</div></div></div><div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletColumn ID_f_21829 ajax-refresh-div Portlet PortletCollection Inner content">
+<div >
+<div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletJspCollection ID_c_5361 ajax-refresh-div Portlet PortletCollection Inner">
+
+
+
+
+
+<div id="bandeau_menu" ><!-- 4 div pour ajouter des angles arrondis à l'image --><div class="cadre_bandeau_hg"></div><div class="cadre_bandeau_hd"></div><div class="cadre_bandeau_bg"></div><div class="cadre_bandeau_bd"></div>
+
+
+	
+	<h1>Horaires</h1>
+	
+	
+	
+							
+	
+    <div class="bgColor"><img src='upload/docs/image/jpeg/2010-11/pbd_amenagements_pmr_01_2010-11-23_14-32-2_886.jpg' alt="" /></div>
+	
+	<div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletNavigate ID_c_5362 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+<div id="menu">
+    
+    
+
+
+
+
+
+
+<ul id="menu_secondaire" class="menu_secondaire navN2">
+
+    
+        <li class="first "><a 
+                class=' current selected navN2-c_20542'
+                href='ratp/c_20542/horaires/'>
+            Horaires</a><span class="pipe">&nbsp;|</span>
+            
+            
+            
+            
+        </li>
+    
+
+    
+        <li class=" "><a 
+                class='  navN2-c_20549'
+                href='ratp/c_20549/etat-du-trafic/'>
+            Etat du trafic</a><span class="pipe">&nbsp;|</span>
+            
+            
+            
+            
+        </li>
+    
+
+    
+        <li class=" "><a 
+                class='  navN2-r_38124'
+                href='ratp/r_38124/chantiers-en-cours-metro-tramway/'>
+            Chantiers en cours Métro & Tramway</a><span class="pipe">&nbsp;|</span>
+            
+            
+            
+            
+                <ul id="navN2Bottom-r_38124" class="navN2Bottom menu_tertiaire navN3" style='display:none'>
+                    
+                        
+                        
+                            
+
+                            <li class="first ">
+                                
+                                <a 
+                                    class='  navN2Bottom-r_38124 navN3-r_41119'
+                                    href='ratp/r_41119/prolongement-du-t1/'>
+                                    Prolongement du T1</a>
+                                       
+                                
+                                
+                                
+                                
+                            </li>                                   
+                            
+                        
+                            
+
+                            <li class=" ">
+                                
+                                <a 
+                                    class='  navN2Bottom-r_38124 navN3-r_41135'
+                                    href='ratp/r_41135/prolongement-du-t2/'>
+                                    Prolongement du T2</a>
+                                       
+                                
+                                
+                                
+                                
+                            </li>                                   
+                            
+                        
+                            
+
+                            <li class=" ">
+                                
+                                <a 
+                                    class='  navN2Bottom-r_38124 navN3-r_41140'
+                                    href='ratp/r_41140/prolongement-du-t3/'>
+                                    Prolongement du T3</a>
+                                       
+                                
+                                
+                                
+                                
+                            </li>                                   
+                            
+                        
+                            
+
+                            <li class=" ">
+                                
+                                <a 
+                                    class='  navN2Bottom-r_38124 navN3-r_41145'
+                                    href='ratp/r_41145/creation-du-t5/'>
+                                    Création du T5</a>
+                                       
+                                
+                                
+                                
+                                
+                            </li>                                   
+                            
+                        
+                            
+
+                            <li class=" ">
+                                
+                                <a 
+                                    class='  navN2Bottom-r_38124 navN3-r_41147'
+                                    href='ratp/r_41147/creation-du-t6/'>
+                                    Création du T6</a>
+                                       
+                                
+                                
+                                
+                                
+                            </li>                                   
+                            
+                        
+                            
+
+                            <li class=" ">
+                                
+                                <a 
+                                    class='  navN2Bottom-r_38124 navN3-r_41148'
+                                    href='ratp/r_41148/creation-du-t8/'>
+                                    Création du T8</a>
+                                       
+                                
+                                
+                                
+                                
+                            </li>                                   
+                            
+                        
+                    
+                </ul>
+            
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+</ul><div class="fond_menu_tertiaire"></div><!-- Pour placer le fond vert transparent sous le menu --><div id="fond_menu_N4" class="fond_menu_N4" style="display:none"></div><!-- Pour placer le fond blanc sous le sous-menu -->
+
+
+
+
+    
+
+</div><!--/menu-->
+</div>
+    
+	
+</div></div></div><div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletNavigate ID_c_5647 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+<div class="fil">
+	
+		
+			
+			
+			
+			
+			
+			
+				<a  href='ratp/r_30589/menu-annexe/'>Accueil</a>			
+			
+			
+			
+			
+			
+			
+		
+	
+		
+			
+			<span class='locationSeparator'> &gt; </span>
+			
+			
+			
+			
+				<a  href='ratp/c_20527/me-deplacer/'>Me déplacer</a>			
+			
+			
+			
+			
+			
+			
+		
+	
+		
+			
+			<span class='locationSeparator'> &gt; </span>
+			
+			
+			
+			
+				<a  href='ratp/c_20541/horaires-trafic/'>Horaires & trafic</a>			
+			
+			
+			
+			
+			
+			
+		
+	
+		
+			
+			<span class='locationSeparator'> &gt; </span>
+			
+			
+			
+			
+			
+			
+			
+				<span class="selected">Horaires</span>
+			
+			
+			
+		
+	
+</div>
+
+</div></div><div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;" id='content' class="Outter PortletSelection ID_f_21828 ajax-refresh-div Portlet PortletCollection Inner">  <div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletRow ID_f_21827 ajax-refresh-div Portlet PortletCollection Inner">
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr >
+
+
+<td class=" row-item" valign="top" align="left" >
+  <div style="margin: auto 5px 17px auto ; width: 645px; vertical-align: middle; text-align: left;"  class="Outter PortletColumn ID_f_21825 ajax-refresh-div Portlet PortletCollection Inner block_left innerContent">
+<div >
+<div class=" col-item" style="text-align: left; vertical-align: top;">
+
+
+
+
+
+
+
+
+
+
+  
+    
+    <div id="edito">
+      <div class="portlet_header">
+          <div class="portlet_contour_haut"></div>
+          <h2><span>Information
+           </span></h2>
+      </div>
+      <div class="portlet_middle">
+        
+          
+          
+            <div class='vignetteEditoGauche'>
+            
+              
+              
+                <img src='upload/docs/image/jpeg/2011-12/roissybus-orlybus_2011-12-23_14-43-22_441.jpg' alt='' title='Roissybus-Orlybus' />
+              
+            
+            </div>
+          
+        
+        <div class="enteteEdito">
+          
+        </div>
+        
+        
+          <div class='wiki'>
+<p class='first'>
+<strong>Cliquez sur les liens suivants pour consulter les prochains passages :</strong>
+
+</p>
+<p>
+
+- <a href="http://www.ratp.fr/horaires/fr/ratp/bus/prochains_passages/PP/BROY/ROY_80_754_755/A">Direction Roissy Charles-de-Gaulle</a> 
+
+</p>
+<p>
+
+- <a href="http://www.ratp.fr/horaires/fr/ratp/bus/prochains_passages/PP/BROY/ROY_741/R">Direction Paris-Opéra</a> 
+<img src="upload/docs/image/png/2010-12/spacer.png" alt="spacer" />
+
+</p>
+<p>
+
+- <a href="http://www.ratp.fr/horaires/fr/ratp/bus/prochains_passages/PP/BORY/ORY_3/A">Direction Orly-Sud</a>
+
+</p>
+<p>
+
+- <a href="http://www.ratp.fr/horaires/fr/ratp/bus/prochains_passages/PP/BORY/ORY_2/R">Direction Denfert-Rochereau</a>
+</p>
+</div>
+        
+        
+        
+      </div>
+      <div class="portlet_bottom">
+        <div class="portlet_contour_bas"></div>
+      </div>
+    </div>
+  
+
+
+
+  
+  
+
+</div><div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletQueryForeach ID_v_21923 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+
+
+
+<tr>
+	<td>
+    
+
+<div id="contenu_horaire">
+  <h1>Horaires</h1>  <ul id="liens_utiles">
+  <li><a href="http://www.ratp.fr/contact/remarques">Vos remarques</a></li>
+  <li><a href="http://www.ratp.fr/fr/ratp/c_21321/faq-horaires/">FAQ</a></li>
+  
+</ul>
+         <ul id="tabs">
+          <li class="RER">
+      <a href="/horaires/fr/ratp/rer">RER</a>    </li>
+          <li class="Métro">
+      <a href="/horaires/fr/ratp/metro">Métro</a>    </li>
+          <li class="Bus current">
+      <a href="/horaires/fr/ratp/bus">Bus</a>    </li>
+          <li class="Tramway">
+      <a href="/horaires/fr/ratp/tramway">Tramway</a>    </li>
+          <li class="Noctilien">
+      <a href="/horaires/fr/ratp/noctilien">Noctilien</a>    </li>
+  </ul>    
+<div id="prochains_passages">
+  <fieldset class="bus">
+    <div class="legend">Les prochains passages à l'arrêt de votre choix</div>
+    <div class="date_time">
+      <span class="date">22 février 2012</span>
+      <span class="time">23h14</span>
+      <a onclick="jQuery.get(&quot;/horaires/fr/ratp/favoris/add/YTozOntzOjQ6InRleHQiO3M6MzY6IkJ1cyAlMSUgLSBEaXJlY3Rpb24gJTIlIC0gQXJyw6p0ICUzJSI7czo2OiJ2YWx1ZXMiO2E6Mzp7czozOiIlMSUiO3M6MzoiMTMyIjtzOjM6IiUyJSI7czoxNjoiQ2l0ZSBNb3VsaW4gVmVydCI7czozOiIlMyUiO3M6MTM6IlBhdWwgQXJtYW5nb3QiO31zOjM6InVybCI7czo2MjoiL2hvcmFpcmVzL2ZyL3JhdHAvYnVzL3Byb2NoYWluc19wYXNzYWdlcy9QUC9CMTMyLzEzMl81ODFfNTkxL0EiO30%3D&quot;, function(data){
+        jQuery(&quot;#favorites&quot;).replaceWith(data);
+      });return false;" href="/horaires/fr/ratp/favoris/add/YTozOntzOjQ6InRleHQiO3M6MzY6IkJ1cyAlMSUgLSBEaXJlY3Rpb24gJTIlIC0gQXJyw6p0ICUzJSI7czo2OiJ2YWx1ZXMiO2E6Mzp7czozOiIlMSUiO3M6MzoiMTMyIjtzOjM6IiUyJSI7czoxNjoiQ2l0ZSBNb3VsaW4gVmVydCI7czozOiIlMyUiO3M6MTM6IlBhdWwgQXJtYW5nb3QiO31zOjM6InVybCI7czo2MjoiL2hvcmFpcmVzL2ZyL3JhdHAvYnVzL3Byb2NoYWluc19wYXNzYWdlcy9QUC9CMTMyLzEzMl81ODFfNTkxL0EiO30%3D">Ajouter à mes horaires favoris</a>    </div>
+
+    <div class="line_details">
+      <img alt="Bus" class="reseau" src="/horaires/images/networks/bus.png" /><img alt="Ligne 132" class="ligne bus" src="/horaires/images/lines/bus/132.png" />      <span>Paul Armangot</span>
+    </div>
+
+    <span class="direction">Direction : Cite Moulin Vert</span>
+
+    <table>
+      <thead>
+        <tr class="overall_header">
+          <th colspan="2">Les prochains passages</th>
+        </tr>
+        <tr>
+          <th>Terminus</th>
+          <th>
+                        Temps d'attente            </th>
+        </tr>
+      </thead>
+
+      <tbody>
+                <tr>
+          <td>Vitry Moulin Vert</td><td>22 mn</td>
+        </tr>
+                <tr class="even ">
+          <td>Vitry Moulin Vert</td><td>53 mn</td>
+        </tr>
+              </tbody>
+    </table>
+  </fieldset>
+  <div class="boutons">
+    <span class="copyright">Copyright &copy; RATP</span>
+    <form method="post" action="/horaires/fr/ratp/bus">
+      <div class="button_wrapper">
+        <input id="hor_submit_new_search" name="nouvelle_recherche" type="submit" value="Nouvelle recherche" />
+      </div>
+    </form>
+    <form method="post" action="/horaires/fr/ratp/bus/prochains_passages/PP/B132/132_581_591/A">
+      <div class="button_wrapper">
+        <input id="hor_submit_update" name="actualiser" type="submit" value="Actualiser" />
+      </div>
+    </form>
+  </div>
+</div>
+<script type="text/javascript">
+  writeHoraireXitiTag("BUS_PP_ETAPE3_TR_OK");
+</script>
+</div>
+
+	</td>
+</tr>
+
+</table>
+
+
+
+  
+  
+
+
+</div></div><div class=" col-item" style="text-align: left; vertical-align: top;"></div>
+</div>
+</div>
+</td>
+
+<td class=" row-item" valign="top" align="left" >
+  <div style="margin: auto auto auto auto ; width: 300px; vertical-align: middle; text-align: left;" id='block_right_pub' class="Outter PortletColumn ID_f_21826 ajax-refresh-div Portlet PortletCollection Inner block_right">
+<div >
+<div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: 10px auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletJsp ID_v_21927 ajax-refresh-div Portlet PortletSkinable Inner">
+
+         <div id="favorites">
+  <h3>Favoris Horaires</h3>
+
+        
+      <h4>Simplifiez-vous la vie !</h4>
+    <p>Avec son service de <strong> personnalisation</strong>, disposez de vos horaires en un seul clic... Simple et pratique, il suffit d'ajouter à vos favoris le résultat de votre requête en cliquant sur le lien <strong> "Ajouter à mes horaires favoris." </strong></p>
+  
+  <script type="text/javascript">
+  //<![CDATA[
+  jQuery(document).ready(function($) {
+    jQuery('#favorites form').submit(function() {
+      jQuery.post(
+        "/horaires/fr/ratp/favoris/remove",
+        jQuery("#favorites form").serialize(),
+        function(data){
+          $("#favorites").replaceWith(data);
+        }
+      );
+      return false;
+    });
+  });
+  //]]>
+  </script>
+</div>       </div></div><div class=" col-item" style="text-align: left; vertical-align: top;">
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+      
+          
+      
+      <div id="pubEncart1">
+        
+          
+          
+              <script type="text/javascript">
+sas_pageid='22256/(horaires)';
+sas_formatid=5790;
+sas_target='';
+SmartAdServer(sas_pageid,sas_formatid,sas_target);
+</script>
+<noscript>
+<a href="http://www3.smartadserver.com/call/pubjumpi/22256/(horaires)/5790/S/[timestamp]/?">
+<img src="http://www3.smartadserver.com/call/pubi/22256/(horaires)/5790/S/[timestamp]/?" border="0" alt="" /></a>
+</noscript>
+          
+        
+        
+          <!-- Publicité Encart 1 -->
+        
+      </div>
+      
+      
+            
+    
+  
+
+
+
+  
+  
+
+
+</div><div class=" col-item" style="text-align: left; vertical-align: top;"></div><div class=" col-item" style="text-align: left; vertical-align: top;">
+
+
+
+
+
+
+
+
+
+  
+    
+    
+      
+      
+            
+      
+      <div id="pubEncart2">
+        
+          
+          
+              <script type="text/javascript">
+sas_pageid='22256/(horaires)'; // Page : RATP/horaires (PageID=152291)
+sas_formatid=5791;  // Format : Rectangle2 300x250
+sas_target='';   // Targeting
+SmartAdServer(sas_pageid,sas_formatid,sas_target);
+</script>
+<noscript>
+<a href="http://www3.smartadserver.com/call/pubjumpi/22256/(horaires)/5791/M/[timestamp]/?">
+<img src="http://www3.smartadserver.com/call/pubi/22256/(horaires)/5791/M/[timestamp]/?" border="0" alt="" /></a>
+</noscript>
+          
+        
+        
+          <!-- Publicité Encart 2 -->
+        
+      </div>
+      
+      
+            
+    
+  
+
+
+
+  
+  
+
+
+</div><div class=" col-item" style="text-align: left; vertical-align: top;"></div>
+</div>
+</div>
+</td>
+
+</tr></table></div></div></div>
+</div>
+</div></div><div class=" col-item" style="text-align: left; vertical-align: top;"><div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletJspCollection ID_c_5152 ajax-refresh-div Portlet PortletCollection Inner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+	<ul>
+		<li class="first">@ RATP - Tous droits réservés</li>
+		
+		  
+		  		<li class='first'><a  href='ratp/r_29405/contacts/'>Contacts</a></li>
+		  	
+		
+		  
+		  		<li ><a  href='ratp/r_23855/mentions-legales/'>Mentions légales</a></li>
+		  	
+		
+		  
+		  		<li ><a  href='ratp/r_23856/nos-faq/'>Nos FAQ</a></li>
+		  	
+		
+		  
+		  		<li ><a  href='ratp/r_23858/tous-les-sites/'>Tous les sites</a></li>
+		  	
+		
+		  
+		  		<li class='last'><a  href='ratp/r_30437/plan-du-site/'>Plan du site</a></li>
+		  	
+		
+	</ul>
+</div>
+</div></div>
+</div>
+</div>
+  
+
+
+
+
+  
+  
+    
+    
+    
+
+
+      
+      	
+        
+      
+      
+      
+      
+      
+      
+    
+    
+
+  
+  
+
+
+  
+
+
+  </div>
+
+
+
+<div id="vosOutils" style="z-index:1000;">
+	<a href="javascript:" id="vosOutilsSwitch" class="languette">
+		<img  src="s.gif" width="24" height="21" class="close" title="Fermer la barre d'outils" alt="Fermer" />
+		<img style="display:none" src="s.gif" width="24" height="21" class="open" title="Ouvrir la barre d'outils" alt="Ouvrir" />
+	</a>
+	<div id="vosOutilsContent" >
+		<div style="margin: auto auto auto auto ; vertical-align: middle; text-align: left;"  class="Outter PortletQueryForeach ID_n_23653 ajax-refresh-div Portlet PortletSkinable Inner">
+
+
+
+
+
+
+
+
+<div class="barreDeService">
+<div>
+        <h2>Vos services</h2>
+        <ul>
+        
+
+
+        
+        
+            <li>
+                <a href="/itineraires/fr/ratp/recherche-avancee" class="lienService" 
+                onmouseover="JCMS.plugin.barreDeService.displayBubbleSpan(this);" 
+                onmouseout="JCMS.plugin.barreDeService.displayBubbleSpan(this);">
+                    <img src='upload/docs/image/png/2010-12/ico_itineraires.png' alt='Itinéraires' />
+                    
+                    <span class="bubble">
+                        <span>
+                            Itinéraires
+                        </span>
+                    </span>
+                </a>
+            </li>
+        
+        
+        
+        
+            <li>
+                <a href="/informer/trafic/trafic.php" class="lienService" 
+                onmouseover="JCMS.plugin.barreDeService.displayBubbleSpan(this);" 
+                onmouseout="JCMS.plugin.barreDeService.displayBubbleSpan(this);">
+                    <img src='upload/docs/image/png/2010-12/ico_trafic.png' alt='Trafic' />
+                    
+                    <span class="bubble">
+                        <span>
+                            Trafic
+                        </span>
+                    </span>
+                </a>
+            </li>
+        
+        
+        
+        
+            <li>
+                <a href="/horaires/fr/ratp/rer" class="lienService" 
+                onmouseover="JCMS.plugin.barreDeService.displayBubbleSpan(this);" 
+                onmouseout="JCMS.plugin.barreDeService.displayBubbleSpan(this);">
+                    <img src='upload/docs/image/png/2010-12/ico_horaires.png' alt='Horaires' />
+                    
+                    <span class="bubble">
+                        <span>
+                            Horaires
+                        </span>
+                    </span>
+                </a>
+            </li>
+        
+        
+        
+        
+            <li>
+                <a href="ratp/c_20559/plans-des-lignes/" class="lienService" 
+                onmouseover="JCMS.plugin.barreDeService.displayBubbleSpan(this);" 
+                onmouseout="JCMS.plugin.barreDeService.displayBubbleSpan(this);">
+                    <img src='upload/docs/image/png/2010-12/ico_plan_lignes.png' alt='Plan des lignes' />
+                    
+                    <span class="bubble">
+                        <span>
+                            Plan des lignes
+                        </span>
+                    </span>
+                </a>
+            </li>
+        
+        
+        
+        
+            <li>
+                <a href="/plan-interactif/" class="lienService" 
+                onmouseover="JCMS.plugin.barreDeService.displayBubbleSpan(this);" 
+                onmouseout="JCMS.plugin.barreDeService.displayBubbleSpan(this);">
+                    <img src='upload/docs/image/png/2010-12/ico_plan_interactif.png' alt='Plan interactif' />
+                    
+                    <span class="bubble">
+                        <span>
+                            Plan interactif
+                        </span>
+                    </span>
+                </a>
+            </li>
+        
+        
+        
+        
+            <li>
+                <a href="ratp/c_20629/services-mobiles/" class="lienService" 
+                onmouseover="JCMS.plugin.barreDeService.displayBubbleSpan(this);" 
+                onmouseout="JCMS.plugin.barreDeService.displayBubbleSpan(this);">
+                    <img src='upload/docs/image/png/2010-12/ico_mobiles.png' alt='Mobiles' />
+                    
+                    <span class="bubble">
+                        <span>
+                            Mobiles
+                        </span>
+                    </span>
+                </a>
+            </li>
+        
+        
+        <li style="display: none"></li>
+        </ul>
+    </div>
+</div>
+
+
+  
+  
+
+
+
+
+</div>
+	</div>
+</div><!--/vosOutils-->
+
+
+
+
+<!--## DEBUT TAG XITI ##-->
+<script type="text/javascript">
+<!--
+	xtnv = document;
+	xtsd = "http://logc5";
+	xtsite = "63370";
+	xtn2 = "12";
+	xtpage = "me_deplacer::horaires___trafic::horaires::horaires";
+	xtdi = "";
+//-->
+</script>
+<script type="text/javascript" src="/fr/js/xtcore.js"></script>
+<noscript>
+<img width="1" height="1" alt="" src="http://logc5.xiti.com/hit.xiti?s=63370&s2=12&p=&di=&" />
+</noscript>
+<!--## FIN TAG XITI ##-->
+<script type="text/javascript" language="JavaScript">
+/* <![CDATA[ */
+  var t0 = new Date().getTime();
+/* ]]> */
+</script>
+
+  <script src="js/packedJs_-1011184800.js"  type="text/javascript" language="JavaScript"></script>
+  <script src="js/channel.js?nopack&amp;contextPath=" type="text/javascript" language="JavaScript"></script>
+  <script src="js/packedJs_144204483.js"  type="text/javascript" language="JavaScript"></script>
+  <script src="recherche/search_autocompletion.js?nopack" type="text/javascript" language="JavaScript"></script>
+  <script src="js/packedJs_-597329775.js"  type="text/javascript" language="JavaScript"></script>
+<script type="text/javascript" language="JavaScript">
+/* <![CDATA[ */
+ var domLoadFunc = function() { 
+   var t1 = new Date().getTime(); 
+
+	     new JCMS.PortletNavigate.DropDownMenu('ddm0_root');
+	     new JCMS.PortletNavigate.DropDownMenu('ddm_sd1_root');
+	     
+	
+	var defaultSearchValue = "Rechercher";
+ 	Event.observe($('champ-texte'), 'focus', function() {if (this.value == defaultSearchValue) this.value = "";} );
+	Event.observe($('champ-texte'), 'blur',  function() {if (this.value == '') this.value = defaultSearchValue;	});
+
+	     
+	
+	$$('div.skip_link a').each(function(elt) {
+		
+	 	Event.observe(elt, 'focus',
+	 		function() {  
+     			$$('div.skip_link').each(function(elt) { elt.removeClassName('accessibilite_off');	});
+ 			});
+		
+	 	Event.observe(elt, 'blur', 
+	 		function() {  
+     			$$('div.skip_link').each(function(elt) { elt.addClassName('accessibilite_off');	});
+ 			}); 			
+	 });
+
+	     
+        var conteneurMenuId = 'menu';
+    
+        //---------------- Niveau N2-N3 ---------------- \\
+        var lienANavSup_n2n3     = '#menu_secondaire > li > a';
+        var lienSpanNavSup_n2n3  = '#menu_secondaire > li > span';
+        var menuSub_n2n3         = 'ul.navN2Bottom';
+        
+        var menuSupPrefix_n2n3   = 'navN2-';
+        var menuSubPrefix_n2n3   = 'navN2Bottom-';
+    
+        JCMS.plugin.menuUtils.init(conteneurMenuId, lienANavSup_n2n3, lienSpanNavSup_n2n3, menuSub_n2n3, menuSupPrefix_n2n3, menuSubPrefix_n2n3);
+        
+        //---------------- Niveau N3-N4 ---------------- \\
+        var lienANavSup_n3n4     = 'ul.menu_tertiaire > li > a';
+        var lienSpanNavSup_n3n4  = 'ul.menu_tertiaire > li > span';
+        var menuSub_n3n4         = 'ul.navN3Bottom';
+        
+        var menuSupPrefix_n3n4   = 'navN3-';
+        var menuSubPrefix_n3n4   = 'navN3Bottom-';
+        
+        JCMS.plugin.menuUtils.init(conteneurMenuId, lienANavSup_n3n4, lienSpanNavSup_n3n4, menuSub_n3n4, menuSupPrefix_n3n4, menuSubPrefix_n3n4);
+    
+	     
+//----------------------- Paramètres -----------------------\\
+var linkClassName = 'lienService';
+
+//------------------------ Méthodes ------------------------\\
+JCMS = window.JCMS || {};
+JCMS.plugin = JCMS.plugin || {};
+JCMS.plugin.barreDeService = JCMS.plugin.barreDeService || {};
+
+JCMS.plugin.barreDeService = {
+
+    displayBubbleSpan:function(element) {
+        
+        $$('span.bubble').each(function(span) {
+            if (span.parentNode == element) {
+                if (span.style.display == 'inline') {
+                    span.style.display = 'none';
+                } else {
+                    span.style.display = 'inline';
+                }
+            }
+        });
+    }
+}
+
+//------------------------ Actions ------------------------\\
+// Observe le focus sur les liens des services
+$$('a.' + linkClassName).each(function(element) {
+
+    // Lors du focus de l'un des liens
+    element.observe('focus', function(mouseEvent) {
+        var link = Event.element(mouseEvent);
+        JCMS.plugin.barreDeService.displayBubbleSpan(link);
+    });
+
+    // Lors de l'arrêt du focus de l'un des liens
+    element.observe('blur', function(mouseEvent) {
+        var link = Event.element(mouseEvent);
+        JCMS.plugin.barreDeService.displayBubbleSpan(link);
+    });
+});
+
+	     
+	JCMS.plugin.stickyFooter.init('vosOutilsSwitch');
+
+     Ajax.markStyleSheetsLoaded('css/packedCss_556464708.css', 'css/packedCss_287440174.css', 'css/packedCss_355299540.css');
+     Ajax.markJavaScriptsLoaded('js/jalios/languages/fr.js', 'js/lib/jsonrpc.js', 'js/lib/prototype.js', 'js/lib/cookies.js', 'js/lib/swfobject.js', 'js/lib/builder.js', 'js/lib/effects.js', 'js/lib/dragdrop.js', 'js/lib/controls.js', 'js/lib/slider.js', 'js/lib/livepipe.js', 'js/lib/window.js', 'js/lib/rsh.js', 'js/lib/jscal2/jscal2.js', 'js/lib/jscal2/lang/fr.js', 'js/lib/datejs/date-fr.js', 'js/jalios/util.js', 'js/channel.js?nopack&amp;contextPath=', 'js/tabpane.js', 'js/tree.js', 'js/treegroup.js', 'js/widget.js', 'js/treecat.js', 'js/custom.js', 'custom/js/standard.js', 'js/custom_fo.js', 'types/PortletNavigate/portletNavigateDropDown.js', 'recherche/search_autocompletion.js?nopack', 'plugins/RatpCore/js/plugin.js');  
+  var t2 = new Date().getTime();
+  JcmsLogger.info('JSPPage', 'OnLoad in '+(t2-t1)+' ms', ' All JS in '+(t2-t0)+' ms');
+  document.body.className = document.body.className + ' js-ready';
+  document.isAjaxRefresh = true;
+};
+
+  document.observe('dom:loaded', function(){ domLoadFunc.defer(); });
+/* ]]> */
+</script>
+
+</body>
+</html>
+
